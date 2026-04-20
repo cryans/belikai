@@ -1,0 +1,13 @@
+[project]
+name = "lsp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dsl",
+    "pygls>=2.1.1",
+]
+
+[tool.uv.sources]
+dsl = { workspace = true, editable = true }
